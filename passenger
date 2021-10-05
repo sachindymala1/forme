@@ -1,0 +1,44 @@
+Scanner sc=new Scanner(System.in) ;
+            HashMap<String,HashMap> passenger  = new HashMap<String, HashMap>();
+            public void opition(){
+                System.out.println("book:1,remove:2,details:3,exit:4");
+                sSystem.out.println("enter  option");
+                int options=sc.nextInt();
+                while(true){
+                    switch(options){
+                        case 1:bookseat();
+                            break;
+                        case 2:removeinfo();
+                            break;
+                        case 3:getinfo();
+                            break;
+                        case 4 :Exit();
+                        default:
+                            System.out.println("enter the correct option");
+                    }
+                }
+
+    public bookseat() {
+                System.out.println("enter passenger uniqueid");
+                String uid = sc.next();
+                HashMap<String, String> passengerinfo = new HashMap<String, String>();
+                System.out.println("enter passenger name");
+                passengerinfo.put("name", sc.next());
+                System.out.println("enter passenger pickup");
+                passengerinfo.put("pickup", sc.next());
+                System.out.println("enter passenger destination");
+                passengerinfo.put("destination", sc.next());
+
+                passenger.put(uid,passengerinfo);
+            }
+
+
+
+                }
+
+
+
+
+
+
+            }
