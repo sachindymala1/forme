@@ -1,0 +1,35 @@
+student {
+HashMap<String,HashMap> student = new HashMap<String, HashMAp>();
+public void opition(){
+sout("add:1,remove:2,details:3");
+sout("enter  option");
+int options=sc.nextInt(); 
+while(true){
+switch(options){
+case 1:addStudentinfo();
+break;
+case 2:removeStudentinfo();
+break;
+case 3:getStudentinfo();
+break;
+case 4 :exit();
+default:
+sout("enter the correct option");
+}
+}
+
+public addStudentinfo(){
+sout("enter usn of student");
+string usn=sc.next();
+HashMap<String,String> studentinfo = new HashMap<String, String>();
+sout("enter student name" );
+studentInfo.put("name",sc.next);
+
+
+}
+
+
+
+
+
+
